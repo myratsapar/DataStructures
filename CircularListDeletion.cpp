@@ -63,6 +63,7 @@ student *delStudent(student *root, int id, char *name){
 	student *previousStudent = NULL;
 	student *currentStudent = root;
 	
+
 	if (root -> id == id){
 		while(currentStudent -> next != root){
 			if (currentStudent -> next -> id == id){
