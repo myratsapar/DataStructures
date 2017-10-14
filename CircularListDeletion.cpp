@@ -54,7 +54,7 @@ student *insertStudent(student *root, int id, char *name){
 		student *newStudent = (struct student*)malloc(sizeof(struct student));
 		newStudent -> next = currentStudent -> next;
 		currentStudent -> next = newStudent;
-		newStudent -> id = id;
+newwStudent -> id = id;
 		newStudent -> name = name;
 		return root;
 }
@@ -113,23 +113,3 @@ int main (){
 	printList(root);
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
