@@ -42,6 +42,7 @@ student *insertStudent(student *root, int id, char *name){
 	}
 	
 	student *iter = root;
+	
 	while(iter -> next != NULL && iter -> next -> id < id){
 		iter = iter -> next;
 	}
