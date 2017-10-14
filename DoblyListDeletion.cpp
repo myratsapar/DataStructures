@@ -18,7 +18,7 @@ void printList(student *root){
 		printf ("Name: %s\n", root -> name);
 		root = root -> next;
 	}
-	printf ("\n");
+ 	printf ("\n");
 }
 
 student *insertStudent(student *root, int id, char *name){
@@ -65,7 +65,7 @@ student *delStudent(student *root, int id, char *name){
 		free(temp);
 		return root;
 	}
-	while (current -> next != NULL && current -> next -> id !=id){
+	while (current -> next != NULL && current -> next -> id != id){
 		current = current -> next;
 	}
 	if (current -> next == NULL){
@@ -76,7 +76,7 @@ student *delStudent(student *root, int id, char *name){
 	current -> next = current -> next -> next;
 	free (temp);
 	if(current -> next !=NULL)
-	current -> next -> prev;
+	current -> next -> prev = current;
 	return root;	
 }
 
