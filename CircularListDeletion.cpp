@@ -73,7 +73,7 @@ student *delStudent(student *root, int id, char *name){
 			}
 			currentStudent = currentStudent -> next;
 		}
-		currentStudent = currentStudent -> next;
+		
 		currentStudent -> next = root -> next;
 		free(root);
 	return currentStudent -> next; //root diydigi
