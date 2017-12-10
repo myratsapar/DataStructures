@@ -12,7 +12,10 @@ This reposity includes Data Structures which coded in C
 
 
 
-Linked List
+
+
+Linked List:
+
 - Singly Linked List
 - Doubly Linked List
 - Circular Linked List
