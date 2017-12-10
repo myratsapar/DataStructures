@@ -1,3 +1,7 @@
 # DataStructures
 
-This reposity includes Data Structures C codes
+This reposity includes Data Structures which coded in C
+
+- Linked List
+- Stack
+- Queue
