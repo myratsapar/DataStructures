@@ -26,5 +26,5 @@ Queue FIFO :
 Heap:
 - Max Heap
 - Min Heap
-- Insertion/Heapfy(Swap)
+- Insertion/Heapify(Swap)
 - Deletion
