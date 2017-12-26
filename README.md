@@ -23,6 +23,11 @@ Queue FIFO :
 - Enqueue 
 - Dequeue
 
+Heap:
+- Max Heap
+- Min Heap
+- Insertion/Heapfy(Swap)
+- Deletion
 
 
 
