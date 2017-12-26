@@ -1,4 +1,4 @@
- # DataStructures
+# DataStructures
 
 This reposity includes Data Structures which coded in C
 
@@ -22,6 +22,7 @@ Stack LIFO :
 Queue FIFO :
 - Enqueue 
 - Dequeue
+
 
 
 
