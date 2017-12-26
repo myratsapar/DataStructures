@@ -1,14 +1,14 @@
-# DataStructures
+ # DataStructures
 
 This reposity includes Data Structures which coded in C
 
-- Linked List O (n)
+- Linked List - O (n)
 - Stack
 - Queue
 - Binary Tree
-- Binary Search Tree O (log n)
-- Heap O (n log n)
-- AVL Tree O (log n)
+- Binary Search Tree - O (log n)
+- Heap - O (n log n)
+- AVL Tree - O (log n)
 
 Linked List :
 - Singly Linked List
@@ -22,6 +22,8 @@ Stack LIFO :
 Queue FIFO :
 - Enqueue 
 - Dequeue
+
+
 
 
 
