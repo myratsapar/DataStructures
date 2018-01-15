@@ -109,4 +109,4 @@ int main(){
 	root = deletion(root, 11, "Khalach");
 	printList(root);
 }
-15-01-18 19:31
+//15-01-18 19:31
