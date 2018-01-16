@@ -53,14 +53,7 @@ int find(node *root, int x){
 	
 	return -1;
 }
-
-
-
-
-
-
-
-
+ 
 int main(){
 	node *root = NULL;
 	
@@ -72,31 +65,6 @@ int main(){
 	root = insert(root, 60);
 	root = insert(root, 80);	
 	
-	
 	traverse(root);
-    printf("\nResult search: %d\n", find(root, 25));
+        printf("\nResult search: %d\n", find(root, 25));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
