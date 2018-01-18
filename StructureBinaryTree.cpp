@@ -82,7 +82,7 @@ node *remove(node *root, int data){
 	
 	else {
 		
-		if (root -> left == NULL){	
+		if (root -> left == NULL){	//swap right child with root
 			struct node *temp = root -> right;
 			free(root);
 			return temp;
