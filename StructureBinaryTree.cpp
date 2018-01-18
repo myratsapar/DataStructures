@@ -82,13 +82,13 @@ node *remove(node *root, int data){
 	
 	else {
 		
-		if (root -> left == NULL){	//swap right child with root
+		if (root -> left == NULL){	//swap rightchild with root
 			struct node *temp = root -> right;
 			free(root);
 			return temp;
 		}
 		
-		else if (root -> right == NULL){
+		else if (root -> right == NULL){	//swap leftchild with root
 			struct node *temp = root -> left;
 			free(root);
 			return temp;
