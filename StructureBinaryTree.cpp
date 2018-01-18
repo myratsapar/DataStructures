@@ -82,7 +82,7 @@ node *remove(node *root, int data){
 	
 	else {
 		
-		if (root -> left == NULL){
+		if (root -> left == NULL){	
 			struct node *temp = root -> right;
 			free(root);
 			return temp;
@@ -95,7 +95,7 @@ node *remove(node *root, int data){
 		}
 		
 		root -> data = min(root -> right);
-		root -> right = remove(root -> right, min(root -> right)); //remove old parent of two child
+		root -> right = remove(root -> right, min(root -> right)); //remove old parent of two children
 		
 	}
 		
