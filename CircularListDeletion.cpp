@@ -47,7 +47,7 @@ student *insertStudent(student *root, int id, char *name){
 		return newStudent;
 	}
 	student *currentStudent = root;
-	
+
 	while (currentStudent -> next != root && currentStudent -> next -> id < id){
 		currentStudent = currentStudent -> next;
 	}
